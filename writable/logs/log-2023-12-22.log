@@ -1,0 +1,210 @@
+CRITICAL - 2023-12-22 00:01:17 --> Attempt to read property "designer_id" on null
+in APPPATH/Controllers/Site/Home.php on line 110.
+ 1 APPPATH/Controllers/Site/Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 00:03:28 --> Attempt to read property "designer_id" on null
+in APPPATH/Controllers/Site/Home.php on line 110.
+ 1 APPPATH/Controllers/Site/Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 03:35:59 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 03:35:59 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 06:52:34 --> Attempt to read property "designer_id" on null
+in APPPATH/Controllers/Site/Home.php on line 110.
+ 1 APPPATH/Controllers/Site/Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 09:51:40 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 09:51:55 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 09:52:09 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 09:52:38 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 09:53:08 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 09:53:29 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 09:53:56 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 09:54:02 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 09:54:05 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 10:21:35 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 10:21:49 --> Attempt to read property "designer_id" on null
+in APPPATH/Controllers/Site/Home.php on line 110.
+ 1 APPPATH/Controllers/Site/Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 10:21:53 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 10:21:56 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 10:22:00 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 15:52:28 --> Attempt to read property "designer_id" on null
+in APPPATH/Controllers/Site/Home.php on line 110.
+ 1 APPPATH/Controllers/Site/Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 15:59:31 --> Attempt to read property "designer_id" on null
+in APPPATH/Controllers/Site/Home.php on line 110.
+ 1 APPPATH/Controllers/Site/Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 16:24:58 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 16:24:59 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 16:26:27 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 16:44:46 --> Attempt to read property "designer_id" on null
+in APPPATH/Controllers/Site/Home.php on line 110.
+ 1 APPPATH/Controllers/Site/Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 17:37:24 --> Attempt to read property "designer_id" on null
+in APPPATH/Controllers/Site/Home.php on line 110.
+ 1 APPPATH/Controllers/Site/Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 17:44:31 --> Attempt to read property "designer_id" on null
+in APPPATH/Controllers/Site/Home.php on line 110.
+ 1 APPPATH/Controllers/Site/Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 17:51:11 --> Attempt to read property "designer_id" on null
+in APPPATH/Controllers/Site/Home.php on line 110.
+ 1 APPPATH/Controllers/Site/Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 17:53:20 --> Attempt to read property "designer_id" on null
+in APPPATH/Controllers/Site/Home.php on line 110.
+ 1 APPPATH/Controllers/Site/Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-22 19:06:12 --> Attempt to read property "language_id" on null
+in APPPATH/Controllers/Site/Home.php on line 79.
+ 1 APPPATH/Controllers/Site/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Site\Home->pages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()

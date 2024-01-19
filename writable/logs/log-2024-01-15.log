@@ -1,0 +1,468 @@
+INFO - 2024-01-15 17:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:13:49 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'images', 'dashboard_full_1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:13:49 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'jquery.timepicker.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:13:50 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'images', 'dashboard_full_1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:13:59 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'jquery.timepicker.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:14:08 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'jquery.timepicker.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:22:26 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'jquery.timepicker.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:24:46 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'bg_2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:24:46 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:24:46 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'jquery.timepicker.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:24:46 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:24:46 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:24:46 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:24:46 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:24:46 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:00 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'jquery.timepicker.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:00 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:00 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'bg_2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:00 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:00 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:00 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:00 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:08 --> Attempt to read property "designer_id" on null
+in APPPATH\Controllers\Site\Home.php on line 95.
+ 1 APPPATH\Controllers\Site\Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "designer_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('blog-single.html')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:08 --> Attempt to read property "designer_id" on null
+in APPPATH\Controllers\Site\Home.php on line 95.
+ 1 APPPATH\Controllers\Site\Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "designer_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('blog-single.html')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:12 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'jquery.timepicker.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:12 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:12 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'bg_2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:12 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:12 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:12 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:12 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'image_6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:15 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'popper.min.js.map')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:15 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'bootstrap.min.js.map')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:15 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'aos.js.map')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:28:15 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'css', 'aos.css.map')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:29:33 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'jquery.timepicker.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:29:33 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'bg_2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:33:18 --> Attempt to assign property "seoTitle_1" on array
+in APPPATH\Controllers\Site\Home.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('duyurular')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:33:18 --> Attempt to assign property "seoTitle_1" on array
+in APPPATH\Controllers\Site\Home.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('duyurular')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:34:23 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'jquery.timepicker.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:34:23 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('images', 'bg_2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-15 17:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:35:33 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'popper.min.js.map')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:35:33 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'bootstrap.min.js.map')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:35:33 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'aos.js.map')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-15 17:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-15 17:35:33 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 81.
+ 1 APPPATH\Controllers\Site\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\havzayeg\\app\\Controllers\\Site\\Home.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'css', 'aos.css.map')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()

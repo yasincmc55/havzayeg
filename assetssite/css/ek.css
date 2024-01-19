@@ -1,0 +1,195 @@
+/*Video Slider Kısmı*/
+   
+.video-bg {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    
+    
+    
+/*Video Slider Altı İkonlar*/
+
+
+.leader-yaklasimi {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+}
+
+
+.heading-section h2 {
+    color: #007bff;
+    font-size: 36px;
+}
+
+
+.heading-section .subheading {
+    display: block;
+    font-size: 18px;
+    color: #6c757d;
+}
+
+
+.services {
+    padding-top: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.services:hover {
+    transform: scale(1.05);
+}
+
+
+
+.services h3 {
+    color: #343a40;
+    font-size: 20px;
+}
+
+
+.services p {
+    color: #6c757d;
+}
+
+
+.services + .services {
+    margin-top: 20px;
+}
+
+
+/*instagram post alanı yükseklik eşitleme*/
+
+.work-entry {
+    margin-bottom: 30px;
+  }
+
+  .instagram-media {
+    height: 400px; 
+    overflow: hidden;
+  }
+
+
+
+  /*Anasayfa faaliyetler kısmı*/
+  .ftco-section {
+    padding: 100px 0; 
+  }
+
+  .heading-section h2 {
+    font-size: 36px;
+    color: #333; 
+  }
+
+  .heading-section .subheading {
+    font-size: 18px;
+    color: #666; 
+  }
+
+  .blog-entry {
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add box-shadow for a subtle shadow effect */
+  }
+
+  .blog-entry:hover {
+    border-color: #007bff;
+    transform: scale(1.05);
+    transition: border-color 0.3s, transform 0.3s;
+  }
+
+  .block-20 {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .blog-entry .text {
+    padding: 20px;
+  }
+
+  .meta a {
+    color: #007bff; 
+  }
+
+  .heading a {
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .heading a:hover {
+    color: #007bff; 
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+
+  .blog-entry .text {
+    padding: 20px;
+    transition: transform 0.3s;
+  }
+
+  .blog-entry:hover .text {
+    transform: translateY(-10px);
+  }
+
+
+
+/* HAVZA YEG NEDİR KISMI */
+
+
+.list-services .text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px; 
+  }
+
+
+  .services-wrap {
+    padding: 20px; 
+  }
+
+
+
+@media (max-width:768px){
+    
+.img {
+    height: 300px !important; 
+    }
+    .list-services .text {
+    font-size: 14px; 
+    line-height: 1.5; 
+    }
+    .services-wrap .list-services .text{
+        width:100% !important;
+        padding-left:12px !important;
+    }
+
+    .services-wrap   .list-services{
+        padding:0px;
+    }
+}

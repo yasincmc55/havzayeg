@@ -1,0 +1,389 @@
+INFO - 2023-12-29 11:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 11:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 11:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 11:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 11:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 11:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 11:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 11:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 11:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 11:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 11:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 12:11:17 --> Attempt to read property "designer_id" on null
+in APPPATH\Controllers\Site\Home.php on line 110.
+ 1 APPPATH\Controllers\Site\Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "designer_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 12:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 12:11:17 --> Attempt to read property "designer_id" on null
+in APPPATH\Controllers\Site\Home.php on line 110.
+ 1 APPPATH\Controllers\Site\Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "designer_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 12:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 12:42:00 --> Invalid file: "randevu-ekle.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('randevu-ekle.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('randevu-ekle', [], true)
+ 3 APPPATH\Controllers\Panel\Core\RandevuController.php(373): view('randevu-ekle')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Panel\Core\RandevuController->randevu_add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Core\RandevuController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 12:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 12:42:00 --> Invalid file: "randevu-ekle.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('randevu-ekle.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('randevu-ekle', [], true)
+ 3 APPPATH\Controllers\Panel\Core\RandevuController.php(373): view('randevu-ekle')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Panel\Core\RandevuController->randevu_add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Core\RandevuController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 12:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 12:57:21 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevu-ekle')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 12:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 12:57:21 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevu-ekle')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 12:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 12:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 13:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 13:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 13:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 13:06:58 --> Attempt to read property "designer_id" on null
+in APPPATH\Controllers\Site\Home.php on line 110.
+ 1 APPPATH\Controllers\Site\Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "designer_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('json')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 13:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 13:06:58 --> Attempt to read property "designer_id" on null
+in APPPATH\Controllers\Site\Home.php on line 110.
+ 1 APPPATH\Controllers\Site\Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "designer_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('json')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 13:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 13:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 15:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 15:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 15:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 15:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 15:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 15:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 15:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 15:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 15:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 15:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 15:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 16:04:29 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevu-ekle')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 16:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 16:04:29 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevu-ekle')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 16:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 16:05:42 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetspanel', 'plugins', 'summernote-bs4.min.js.map')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 16:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 16:25:04 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetspanel', 'plugins', 'summernote-bs4.min.js.map')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 16:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 16:29:11 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'js', 'bootstrap.bundle.min.js.map')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 16:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 16:29:11 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('assetssite', 'css', 'bootstrap', 'bootstrap.min.css.map')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 16:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 16:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:02:01 --> syntax error, unexpected token ","
+in APPPATH\Controllers\Panel\Core\RandevuController.php on line 393.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Panel\\Core\\RandevuController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Panel\\Core\\RandevuController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Panel\\Core\\RandevuController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Panel\\Core\\RandevuController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-29 17:02:01 --> syntax error, unexpected token ","
+in APPPATH\Controllers\Panel\Core\RandevuController.php on line 393.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Panel\\Core\\RandevuController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Panel\\Core\\RandevuController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Panel\\Core\\RandevuController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Panel\\Core\\RandevuController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:13:35 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevular', 'randevu-store')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:15:24 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevular', 'randevu-store')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:20:14 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevular', 'randevu-store')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:20:14 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevular', 'randevu-store')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:20:49 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevular', 'randevu-store')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:31:02 --> Call to undefined method App\Controllers\Panel\Core\RandevuController::request()
+in APPPATH\Controllers\Panel\Core\RandevuController.php on line 394.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Panel\Core\RandevuController->randevu_store()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Core\RandevuController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:31:02 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevular', 'randevu-store')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:31:39 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+in APPPATH\Controllers\Panel\Core\RandevuController.php on line 394.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Panel\Core\RandevuController->randevu_store()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Core\RandevuController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:31:39 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevular', 'randevu-store')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:32:24 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Panel\Core\RandevuController.php(404): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Panel\Core\RandevuController->randevu_store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Core\RandevuController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:32:24 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevular', 'randevu-store')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:34:56 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevular', 'randevu-store')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:39:55 --> Attempt to read property "designer_id" on null
+in APPPATH\Controllers\Site\Home.php on line 110.
+ 1 APPPATH\Controllers\Site\Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "designer_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('panel.randevular')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 17:39:55 --> Attempt to read property "designer_id" on null
+in APPPATH\Controllers\Site\Home.php on line 110.
+ 1 APPPATH\Controllers\Site\Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "designer_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('panel.randevular')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 17:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 17:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 18:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 18:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 18:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 18:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-29 18:03:02 --> Attempt to read property "language_id" on null
+in APPPATH\Controllers\Site\Home.php on line 79.
+ 1 APPPATH\Controllers\Site\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "language_id" on null', 'C:\\xampp\\htdocs\\projeler\\112life\\app\\Controllers\\Site\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Site\Home->pages('admin', 'randevular', 'json', 'countries.json')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-29 18:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 18:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 18:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 18:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 18:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 18:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 18:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 18:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-29 18:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
