@@ -37,7 +37,7 @@
          <!-- .col-md-8 -->
          <div class="col-md-4 sidebar ftco-animate">
             <div class="sidebar-box ftco-animate">
-               <h3>Son Faaliyetler</h3>
+               <h3>Son Duyurular</h3>
                <?php foreach($recentPosts as $recentPost): 
                   $d_json = json_decode($recentPost->content_data);
                   $image = files__($d_json, 'image', $language_id)[0][0] ?? '';

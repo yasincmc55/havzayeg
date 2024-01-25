@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-                    <h2>HAVZA YEG KALKINMA PROJESİ</h2>
+                    <h2>" Leader ile Birleşelim, Yerelde Güçlenelim "</h2>
                 </div>
             </div>
         </div>
@@ -17,7 +17,7 @@
             <div class="col-md-3">
                 <div class="ftco-footer-widget mb-4">
                     <h2 class="ftco-heading-2">HAVZA YEG</h2>
-                    <p>Havza Yerel Eylem Grubu Derneğimiz 31.07.2019 tarihinde Samsun Valiliği İl Sivil Toplumla İlişkiler Müdürlüğü tarafından onaylanarak kurulumunu gerçekleştirmiştir. Genel Kurul, Yönetim Kurulu ve Denetleme Kurulu gibi 3 yönetim organına sahiptir.</p>
+                    <p>“Bu internet sitesi AB ve Türkiye Cumhuriyeti'nin mali katkısı ile hazırlanmıştır. Bu yayının içeriğinden sadece Havza YEG sorumludur ve hiçbir şekilde Avrupa Birliği ve Türkiye Cumhuriyeti'nin görüş veya tutumunu yansıttığı ileri sürülemez.”</p>
                 </div>
                 <ul class="ftco-footer-social list-unstyled float-md-left float-lft ">
                     <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
@@ -65,7 +65,7 @@
             <div class="col-md-12 text-center">
 
                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Havza YEG tüm hakları saklıdır. | Bu Site <i class="icon-heart" aria-hidden="true"></i><a href="https://www.arnoma.com.tr" target="_blank">Arnoma Medya Tarafından Oluşturuldu</a>
+                    Copyright &copy; <script>document.write(new Date().getFullYear());</script> Havza YEG tüm hakları saklıdır | Yazılım & Tasarım <a href="https://www.arnoma.com.tr" target="_blank">Arnoma Marketing</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
         </div>
@@ -139,11 +139,9 @@
 <script src="<?= base_url('assetssite/') ?>js/jquery.magnific-popup.min.js"></script>
 <script src="<?= base_url('assetssite/') ?>js/aos.js"></script>
 <script src="<?= base_url('assetssite/') ?>js/jquery.animateNumber.min.js"></script>
-<script src="<?= base_url('assetssite/') ?>js/bootstrap-datepicker.js"></script>
-<script src="<?= base_url('assetssite/') ?>js/jquery.timepicker.min.js"></script>
+
 <script src="<?= base_url('assetssite/') ?>js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-<script src="<?= base_url('assetssite/') ?>js/google-map.js"></script>
+
 <script src="<?= base_url('assetssite/') ?>js/main.js"></script>
 
 </body>

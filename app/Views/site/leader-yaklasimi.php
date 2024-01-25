@@ -7,8 +7,17 @@ $images = files__($d_json, 'image', $language_id) ?? '';
 
 ?>
 
-<div class="hero-wrap hero-wrap-2" style="background-image: url(<?= base_url('uploads/').$banner_image?>);"
-     data-stellar-background-ratio="0.5">
+<div class="hero-wrap hero-wrap-2" style="transition: background-position-y 0.1s ease; background-image: url(<?= base_url('uploads/') . $banner_image ?>);" data-stellar-background-ratio="0.5">
+    <script>
+        window.addEventListener('scroll', function() {
+            setTimeout(function() {
+                var element = document.querySelector('.hero-wrap-2');
+                if (element.style.backgroundPositionY < '0px') {
+                    element.style.backgroundPositionY = '0px';
+                } 
+            }, 100);
+        });
+    </script>
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row no-gutters d-flex slider-text align-items-center justify-content-center"

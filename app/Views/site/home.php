@@ -1,44 +1,45 @@
-<div class="hero-wrap">
+<div class="hero-wrap home-hero">
    <div class="container-fluid video-bg">
-      <video autoplay muted loop id="background-video">
-         <source src="<?= base_url('assetssite/videos/sample.mp4') ?>" type="video/mp4">
-         <!-- Farklı video formatları için gerekli olan alternatif kaynaklar buraya eklenebilir -->
-         Your browser does not support the video tag.
-      </video>
-      <div class="slider-text d-md-flex align-items-center" data-scrollax-parent="true">
-         <div class="one-forth ftco-animate align-self-md-center" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4"> HAVZA YEG
-               <strong class="typewrite" data-period="4000"
-                  data-type='[ "Toplum Kalkındrma Projesidir"]'>
-               <span class="wrap"></span>
-               </strong>
-            </h1>
-            <p class="mb-md-5 mb-sm-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"></p>
-            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#"
-               class="btn btn-primary px-4 py-3">Get
-               a Quote</a> <a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Our Portfolio</a>
-            </p>
-         </div>
-         <div class="one-half align-self-md-end align-self-sm-center">
+      <div class="video-content">
+         <video autoplay muted loop id="background-video">
+            <source src="<?= base_url('assetssite/videos/siteSlider.mp4') ?>" type="video/mp4">
+            <!-- Farklı video formatları için gerekli olan alternatif kaynaklar buraya eklenebilir -->
+            Your browser does not support the video tag.
+         </video>
+      </div>
+      <div class="container">
+         <div class="slider-text d-md-flex align-items-center" data-scrollax-parent="true">
+            <div class="one-forth ftco-animate align-self-md-center" data-scrollax=" properties: { translateY: '85%' }">
+               <h1 class="mb-4">
+                  <strong class="typewrite" data-period="4000" data-type='[ "Havza Yerel Eylem Grubu"]'>
+                     <span class="wrap"></span>
+                  </strong>
+               </h1>
+               <p class="mb-md-5 mb-sm-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"></p>
+               <p data-scrollax="properties: { translateY: '35%', opacity: 1.6 }" class="slider-bottom">
+                  <i class="quoute">"</i> Daha Yaşanabilir Bir Havza, Daha İyi Bir Dünya İçin Tüm Gücümüzle Çalışıyoruz.'
+               </p>
+            </div>
+            <div class="one-half align-self-md-end align-self-sm-center">
+            </div>
          </div>
       </div>
    </div>
 </div>
 <section class="ftco-section ftco-section-2">
    <div class="overlay"></div>
-   <div class="container">
-      <div class="row">
-         <div class="col-md-8">
-            <h3 class="heading-white">HAVZA YEG</h3>
-         </div>
-      </div>
-   </div>
 </section>
-<style>
-</style>
-<section class="ftco-section ftco-services">
+
+<div class="sld-alt-back">
+   <img src="<?= base_url() ?>assetssite/images/sld_alt_back.webp" alt="slider_background">
+</div>
+
+<section class="ftco-section ftco-services slider-alti">
    <div class="container  leader-yaklasimi">
-      <div class="row justify-content-center mb-5 pb-5">
+      <div class="row">
+         <img src="<?= base_url() ?>assetssite/images/ab_logo.webp" alt="logos" class="ab-logo">
+      </div>
+      <div class="row justify-content-center mb-5 ">
          <div class="col-md-7 text-center heading-section ftco-animate">
             <h2 class="mb-2">LEADER Yaklaşımı</h2>
             <span class="subheading">LEADER Yaklaşımı Amaç ve Özellikleri</span>
@@ -52,9 +53,9 @@
                </div>
                <div class="media-body p-2 mt-3">
                   <h3 class="heading">Finansman Kaynakları</h3>
+                  <p>IPARD Programı Finansmanı</p>
                   <p>Avrupa Birliği (AB) Destekleri</p>
                   <p>Türkiye Cumhuriyeti Kaynakları</p>
-                  <p>IPARD Programı Finansmanı</p>
                </div>
             </div>
          </div>
@@ -78,8 +79,8 @@
                </div>
                <div class="media-body p-2 mt-3">
                   <h3 class="heading"> Yerel Kalkınma Stratejileri</h3>
-                  <p>Çevresel Sürdürülebilirlik Odaklı Projeler</p>
                   <p>İstihdam Artırıcı Faaliyetler</p>
+                  <p>Çevresel Sürdürülebilirlik Odaklı Projeler</p>
                   <p>Kültürel ve Turistik Gelişime Yönelik Projeler</p>
                </div>
             </div>
@@ -93,24 +94,23 @@
 
 
    <?php
-      $d_json = json_decode($home_data->content_data);
-      $image_data = files__($d_json, 'image', $language_id);
-      $resim = !empty($image_data) ? $image_data[0][0] : '';
-      ?>
+   $d_json = json_decode($home_data->content_data);
+   $image_data = files__($d_json, 'image', $language_id);
+   $resim = !empty($image_data) ? $image_data[0][0] : '';
+   ?>
    <div class="container-wrap mt-5">
       <div class="row d-flex no-gutters">
-         <div class="col-md-6 img ftco-animate"
-            style="background-image: url(<?= base_url('uploads/').$resim?>);">
+         <div class="col-md-6 img ftco-animate" style="background-image: url(<?= base_url('uploads/') . $resim ?>);">
          </div>
          <div class="col-md-6 d-flex">
             <div class="services-wrap">
                <div class="heading-section mb-5 ftco-animate">
-                  <h2 class="mb-2">HAVZA YEG Nedir? </h2>
-                  <span class="subheading">Gıda Tarım ve Hayvancılık Bakanlığı tarafından yürütülen IPARD Programı</span>
+                  <h2 class=" nedir">HAVZA YEG NEDİR?</h2>
+                  <!-- <span class="subheading">Gıda Tarım ve Hayvancılık Bakanlığı tarafından yürütülen IPARD Programı</span> -->
                </div>
                <div class="list-services d-flex ftco-animate">
-                  <div class="icon d-flex justify-content-center align-items-center">
-                  </div>
+                  <!-- <div class="icon d-flex justify-content-center align-items-center">
+                  </div> -->
                   <div class="text">
                      <p>
                         Havza Yerel Eylem Grubu (Havza YEG), kırsal kalkınma stratejilerini belirleyen ve uygulayan bir yerel inisiyatif ve ortaklık platformudur. Türkiye Cumhuriyeti tarafından finanse edilen IPARD Programı kapsamında, Gıda Tarım ve Hayvancılık Bakanlığı tarafından yürütülen LEADER Tedbiri Farkındalık Yaratma ve Yerel Halkı Harekete Geçirme Teknik Destek Projesi'nin bir parçası olarak faaliyet göstermektedir.
@@ -118,8 +118,7 @@
                   </div>
                </div>
                <div class="list-services d-flex ftco-animate">
-                  <div class="icon d-flex justify-content-center align-items-center">
-                  </div>
+
                   <div class="text">
                      <p>
                         Havza YEG, LEADER yaklaşımının temel prensipleri doğrultusunda, Havza bölgesindeki kırsal alanlarda sürdürülebilir kalkınma stratejilerini oluşturmak ve uygulamak için yerel katılımı teşvik eder. Bu, bölgenin önceliklerini ve ihtiyaçlarını dikkate alarak, alt bölgesel düzeyde kapsamlı ve çok yönlü projeler geliştirmeyi amaçlar.
@@ -131,46 +130,45 @@
       </div>
    </div>
 </section>
-<section class="ftco-section">
+<section class="ftco-section mt-5">
    <div class="container">
-      <div class="row justify-content-center mb-5 pb-3">
+      <div class="row justify-content-center  pb-3">
          <div class="col-md-7 text-center heading-section ftco-animate">
             <h2 class="mb-2">Faaliyetlerimiz</h2>
             <span class="subheading"> Havza YEG Projesi Çerçevesinde Yapılan Faaliyetlerimiz</span>
          </div>
       </div>
       <div class="row">
-         <?php 
-            foreach ($faaliyetler as $f) :
-                $d_json = json_decode($f->content_data);
-                $f_image_data = files__($d_json, 'image', $language_id);
-                // Eğer resim varsa ilk öğeyi al, yoksa boş bir dize ata
-                $f_resim = !empty($f_image_data) ? $f_image_data[0][0] : '';
-                $f_baslik = 'baslik_' . $language_id;
-            
-            ?>
-         <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-               <a href="<?= $f->slug; ?>" class="block-20"
-                  style="background-image:url('<?= base_url('uploads/').$f_resim?>');">
-               </a>
-               <div class="text py-2">
-                  <div class="meta mb-3">
-                     <?php                          
-                        date_default_timezone_set('Europe/Istanbul');                        
+         <?php
+         foreach ($faaliyetler as $f) :
+            $d_json = json_decode($f->content_data);
+            $f_image_data = files__($d_json, 'image', $language_id);
+            // Eğer resim varsa ilk öğeyi al, yoksa boş bir dize ata
+            $f_resim = !empty($f_image_data) ? $f_image_data[0][0] : '';
+            $f_baslik = 'baslik_' . $language_id;
+
+         ?>
+            <div class="col-md-4 ftco-animate">
+               <div class="blog-entry">
+                  <a href="<?= $f->slug; ?>" class="block-20" style="background-image:url('<?= base_url('uploads/') . $f_resim ?>');">
+                  </a>
+                  <div class="text py-2 home-blog-text">
+                     <div class="meta mb-3">
+                        <?php
+                        date_default_timezone_set('Europe/Istanbul');
                         setlocale(LC_TIME, 'turkish');
                         ?>
-                     <div><a href="#"><?= strftime('%d %b %Y', strtotime($f->created_at)); ?></a></div>
+                        <!-- <div><a href="#"><?= strftime('%d %b %Y', strtotime($f->created_at)); ?></a></div> -->
+                     </div>
+                     <h3 class="heading home-blog-title"><a href="<?= $f->slug; ?>"><?= $d_json->{$f_baslik} ??= ''; ?></a></h3>
                   </div>
-                  <h3 class="heading"><a href="<?= $f->slug; ?>"><?= $d_json->{$f_baslik} ??= ''; ?></a></h3>
                </div>
             </div>
-         </div>
          <?php endforeach; ?>
       </div>
       <div style="display: flex; justify-content: center;">
-         <a href="<?= base_url('faaliyetler') ?>"> 
-         <input type="submit" value="İNCELE" class="btn btn-primary py-3 px-5">
+         <a href="<?= base_url('faaliyetler') ?>">
+            <input type="submit" value="Tümüne Gözat" class="btn btn-primary py-3 px-5">
          </a>
       </div>
    </div>
@@ -179,10 +177,10 @@
 </style>
 <section class="ftco-section ftco-work">
    <div class="container-fluid">
-      <div class="row justify-content-center mb-5 pb-5">
+      <div class="row justify-content-center  pb-4">
          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-2">INSTAGRAM'DA BİZİ TAKİP ETMEYİ UNUTMAYIN!!</h2>
-            <span class="subheading"><a href="https://www.instagram.com/havzayeg/" target="_blank" style="font-size:25px;" >@havzayeg</a> </span>
+            <h2 class="mb-2">Sosyal Medyayda Havza YEG</h2>
+            <span class="subheading"><a href="https://www.instagram.com/havzayeg/" target="_blank" style="font-size:25px;">@havzayeg</a> </span>
          </div>
       </div>
       <div class="row">
@@ -293,7 +291,9 @@
                      <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C1XS4vUNhBJ/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Havza Yeg (@havzayeg)</a></p>
                   </div>
                </blockquote>
-               <script async src="//www.instagram.com/embed.js"></script>
+               <script async src="//www.instagram.com/embed.js"> </script>
+
+
             </div>
          </div>
          <div class="col-md-4 ftco-animate">

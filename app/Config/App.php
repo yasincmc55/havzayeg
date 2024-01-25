@@ -19,7 +19,7 @@ class App extends BaseConfig
      */
 
       //public string $baseURL = 'https://www.havzayeg.com/';
-       public string $baseURL = 'http://localhost/projeler/havzayeg';
+       public string $baseURL = 'http://localhost:8888/havzayeg';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.

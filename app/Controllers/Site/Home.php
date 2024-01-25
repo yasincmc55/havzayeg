@@ -39,6 +39,7 @@ class Home extends BaseController
 
 
         $faaliyetler = $contents->where('designer_id', '87')
+        ->orderBy('content_sort_order', 'ASC')
         ->orderBy('created_at', 'desc')
         ->limit(3)
         ->get()->getResult();
@@ -183,9 +184,9 @@ class Home extends BaseController
 
 
         // E-posta gönderimi
-        $email->setFrom('info@112life.com', '112 Life');
-        $email->setTo('info@112life.com');
-        $email->setSubject('112Life.com - İletişim Sayfası Form');
+        $email->setFrom('info@havzayeg.com', 'Havza YEG');
+        $email->setTo('info@havzayeg.com');
+        $email->setSubject('havzayeg.com - İletişim Sayfası Form');
         $email->setMessage($message_send);
 
         if ($email->send()) {

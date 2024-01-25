@@ -14,8 +14,17 @@ $veriler = $model
 
       
     
-<div class="hero-wrap hero-wrap-2" style="background-image: url(<?= base_url('uploads/').$banner_image?>);"
-     data-stellar-background-ratio="0.5">
+<div class="hero-wrap hero-wrap-2" style="transition: background-position-y 0.1s ease; background-image: url(<?= base_url('uploads/') . $banner_image ?>);" data-stellar-background-ratio="0.5">
+    <script>
+        window.addEventListener('scroll', function() {
+            setTimeout(function() {
+                var element = document.querySelector('.hero-wrap-2');
+                if (element.style.backgroundPositionY < '0px') {
+                    element.style.backgroundPositionY = '0px';
+                } 
+            }, 100);
+        });
+    </script>
       <div class="overlay"></div>
       <div class="container-fluid">
         <div class="row no-gutters d-flex slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -61,20 +70,6 @@ $veriler = $model
         <?php endforeach; ?>  
 
         </div>
-        <div class="row mt-5">
-          <div class="col text-center">
-            <div class="block-27">
-              <ul>
-                <li><a href="#">&lt;</a></li>
-                <li class="active"><span>1</span></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">&gt;</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </section>

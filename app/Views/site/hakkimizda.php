@@ -4,57 +4,55 @@ $d_json = json_decode($data->content_data);
 $banner_image = files__($d_json, 'banner_image', $language_id)[0][0] ?? '';
 $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
 ?>
-<div class="hero-wrap hero-wrap-2" style="background-image: url(<?= base_url('uploads/').$banner_image?>);"
-     data-stellar-background-ratio="0.5">
+<div class="hero-wrap hero-wrap-2" style="transition: background-position-y 0.1s ease; background-image: url(<?= base_url('uploads/') . $banner_image ?>);" data-stellar-background-ratio="0.5">
+    <script>
+        window.addEventListener('scroll', function() {
+            setTimeout(function() {
+                var element = document.querySelector('.hero-wrap-2');
+                if (element.style.backgroundPositionY < '0px') {
+                    element.style.backgroundPositionY = '0px';
+                } 
+            }, 100);
+        });
+    </script>
     <div class="overlay"></div>
     <div class="container-fluid">
-        <div class="row no-gutters d-flex slider-text align-items-center justify-content-center"
-             data-scrollax-parent="true">
+        <div class="row no-gutters d-flex slider-text align-items-center justify-content-center" data-scrollax-parent="true">
             <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-                <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span
-                            class="mr-2"><a href="<?= base_url(); ?>">Anasayfa</a></span> <span>Hakkımızda</span></p>
+                <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="<?= base_url(); ?>">Anasayfa</a></span> <span>Hakkımızda</span></p>
                 <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Hakkımızda</h1>
             </div>
         </div>
     </div>
 </div>
 
-<section class="ftco-section ftco-counter" id="section-counter"
-         data-stellar-background-ratio="0.5">
+<section class="ftco-section ftco-counter" id="section-counter" data-stellar-background-ratio="0.5">
 </section>
 
 
 <section class="ftco-section">
     <div class="container">
         <div class="row d-md-flex">
-            <div class="col-md-6 ftco-animate img about-image"
-                 style="background-image: url(<?= base_url('uploads/').$image?>);">
+            <div class="col-md-6 ftco-animate img about-image" style="background-image: url(<?= base_url('uploads/') . $image ?>);">
             </div>
             <div class="col-md-6 ftco-animate p-md-5">
                 <div class="row">
                     <div class="col-md-12 nav-link-wrap mb-5">
-                        <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist"
-                             aria-orientation="vertical">
-                            <a class="nav-link active" id="v-pills-whatwedo-tab" data-toggle="pill"
-                               href="#v-pills-whatwedo" role="tab" aria-controls="v-pills-whatwedo"
-                               aria-selected="true">Biz Kimiz?</a>
+                        <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-whatwedo-tab" data-toggle="pill" href="#v-pills-whatwedo" role="tab" aria-controls="v-pills-whatwedo" aria-selected="true">Biz Kimiz?</a>
 
-                            <a class="nav-link" id="v-pills-mission-tab" data-toggle="pill" href="#v-pills-mission"
-                               role="tab" aria-controls="v-pills-mission" aria-selected="false">Misyon</a>
+                            <a class="nav-link" id="v-pills-mission-tab" data-toggle="pill" href="#v-pills-mission" role="tab" aria-controls="v-pills-mission" aria-selected="false">Misyon</a>
 
-                            <a class="nav-link" id="v-pills-mission-tab" data-toggle="pill" href="#v-pills-vizyon"
-                               role="tab" aria-controls="v-pills-vizyon" aria-selected="false">Vizyon</a>
+                            <a class="nav-link" id="v-pills-mission-tab" data-toggle="pill" href="#v-pills-vizyon" role="tab" aria-controls="v-pills-vizyon" aria-selected="false">Vizyon</a>
 
-                            <a class="nav-link mt-2" id="v-pills-goal-tab" data-toggle="pill" href="#v-pills-goal" role="tab"
-                               aria-controls="v-pills-goal" aria-selected="false">Amaçlarımız</a>
+                            <a class="nav-link" id="v-pills-goal-tab" data-toggle="pill" href="#v-pills-goal" role="tab" aria-controls="v-pills-goal" aria-selected="false">Amaçlarımız</a>
                         </div>
                     </div>
                     <div class="col-md-12 d-flex align-items-center">
 
                         <div class="tab-content ftco-animate" id="v-pills-tabContent">
 
-                            <div class="tab-pane fade show active" id="v-pills-whatwedo" role="tabpanel"
-                                 aria-labelledby="v-pills-whatwedo-tab">
+                            <div class="tab-pane fade show active" id="v-pills-whatwedo" role="tabpanel" aria-labelledby="v-pills-whatwedo-tab">
                                 <div>
                                     <h2 class="mb-4">Biz Kimiz?</h2>
                                     <p>
@@ -65,8 +63,7 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade" id="v-pills-mission" role="tabpanel"
-                                 aria-labelledby="v-pills-mission-tab">
+                            <div class="tab-pane fade" id="v-pills-mission" role="tabpanel" aria-labelledby="v-pills-mission-tab">
                                 <div>
                                     <h2 class="mb-4">Misyon</h2>
                                     <p>
@@ -76,8 +73,7 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade" id="v-pills-vizyon" role="tabpanel"
-                                 aria-labelledby="v-pills-vizyon-tab">
+                            <div class="tab-pane fade" id="v-pills-vizyon" role="tabpanel" aria-labelledby="v-pills-vizyon-tab">
                                 <div>
                                     <h2 class="mb-4">Vizyon</h2>
                                     <p>
@@ -87,8 +83,7 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
                                 </div>
                             </div>
 
-                            <div class="tab-pane fade" id="v-pills-goal" role="tabpanel"
-                                 aria-labelledby="v-pills-goal-tab">
+                            <div class="tab-pane fade" id="v-pills-goal" role="tabpanel" aria-labelledby="v-pills-goal-tab">
                                 <div>
                                     <h2 class="mb-4">Amaçlarımız</h2>
                                     <ol>
@@ -117,10 +112,9 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
             </div>
         </div>
         <div class="row justify-content-center ">
-            <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+            <div class="personal-cards d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
-                    <div class="img mb-4"
-                         style="background-image: url(<?= base_url('assetssite/') ?>images/person_1.jpg);"></div>
+                    <div class="img mb-4" style="background-image: url(<?= base_url('assetssite/') ?>images/person.webp);"></div>
                     <div class="info text-center">
                         <h3><a href="teacher-single.html">Sebahattin Özdemir</a></h3>
                         <span class="position">Yönetim Kurulu Başkanı</span>
@@ -128,10 +122,9 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+            <div class="personal-cards d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
-                    <div class="img mb-4"
-                         style="background-image: url(<?= base_url('assetssite/') ?>images/person_2.jpg);"></div>
+                    <div class="img mb-4" style="background-image: url(<?= base_url('assetssite/') ?>images/person.webp);"></div>
                     <div class="info text-center">
                         <h3><a href="teacher-single.html">Kadir Kayan</a></h3>
                         <span class="position">Başkan Yardımcısı</span>
@@ -139,10 +132,9 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+            <div class="personal-cards d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
-                    <div class="img mb-4"
-                         style="background-image: url(<?= base_url('assetssite/') ?>images/person_3.jpg);"></div>
+                    <div class="img mb-4" style="background-image: url(<?= base_url('assetssite/') ?>images/person.webp);"></div>
                     <div class="info text-center">
                         <h3><a href="teacher-single.html">Sema Kurt Köse</a></h3>
                         <span class="position">Sayman</span>
@@ -150,10 +142,9 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+            <div class="personal-cards d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
-                    <div class="img mb-4"
-                         style="background-image: url(<?= base_url('assetssite/') ?>images/person_4.jpg);"></div>
+                    <div class="img mb-4" style="background-image: url(<?= base_url('assetssite/') ?>images/person.webp);"></div>
                     <div class="info text-center">
                         <h3><a href="teacher-single.html">Coşkun Genç</a></h3>
                         <span class="position">Genel Sekreter</span>
@@ -162,10 +153,9 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
                 </div>
             </div>
 
-            <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+            <div class="personal-cards d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
-                    <div class="img mb-4"
-                         style="background-image: url(<?= base_url('assetssite/') ?>images/person_4.jpg);"></div>
+                    <div class="img mb-4" style="background-image: url(<?= base_url('assetssite/') ?>images/person.webp);"></div>
                     <div class="info text-center">
                         <h3><a href="teacher-single.html">Yakup Akekin</a></h3>
                         <span class="position">Asil Üye</span>
@@ -175,10 +165,9 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
             </div>
 
 
-            <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+            <div class="personal-cards d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
-                    <div class="img mb-4"
-                         style="background-image: url(<?= base_url('assetssite/') ?>images/person_4.jpg);"></div>
+                    <div class="img mb-4" style="background-image: url(<?= base_url('assetssite/') ?>images/person.webp);"></div>
                     <div class="info text-center">
                         <h3><a href="teacher-single.html">Alime Kaya</a></h3>
                         <span class="position">Asil Üye</span>
@@ -188,10 +177,9 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
             </div>
 
 
-            <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+            <div class="personal-cards d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
-                    <div class="img mb-4"
-                         style="background-image: url(<?= base_url('assetssite/') ?>images/person_4.jpg);"></div>
+                    <div class="img mb-4" style="background-image: url(<?= base_url('assetssite/') ?>images/person.webp);"></div>
                     <div class="info text-center">
                         <h3><a href="teacher-single.html">Enes Yılmaz</a></h3>
                         <span class="position">Asil Üye</span>
@@ -214,20 +202,18 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+            <div class="personal-cards d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
-                    <div class="img mb-4"
-                         style="background-image: url(<?= base_url('assetssite/') ?>images/person_1.jpg);"></div>
+                    <div class="img mb-4" style="background-image: url(<?= base_url('assetssite/') ?>images/person.webp);"></div>
                     <div class="info text-center">
                         <h3><a href="teacher-single.html">Cafer Uzun</a></h3>
                         <span class="position">Denetim Kurulu Başkanı</span>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+            <div class="personal-cards d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
-                    <div class="img mb-4"
-                         style="background-image: url(<?= base_url('assetssite/') ?>images/person_2.jpg);"></div>
+                    <div class="img mb-4" style="background-image: url(<?= base_url('assetssite/') ?>images/person.webp);"></div>
                     <div class="info text-center">
                         <h3><a href="teacher-single.html">Abdullah Gürkanlı</a></h3>
                         <span class="position">Denetim Kurulu Asil Üye</span>
@@ -235,10 +221,9 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+            <div class="personal-cards d-flex mb-sm-4 ftco-animate">
                 <div class="staff">
-                    <div class="img mb-4"
-                         style="background-image: url(<?= base_url('assetssite/') ?>images/person_3.jpg);"></div>
+                    <div class="img mb-4" style="background-image: url(<?= base_url('assetssite/') ?>images/person.webp);"></div>
                     <div class="info text-center">
                         <h3><a href="teacher-single.html">Ömer Büyük</a></h3>
                         <span class="position">Denetim Kurulu Asil Üye</span>
@@ -249,7 +234,3 @@ $image = files__($d_json, 'image', $language_id)[0][0] ?? '';
         </div>
     </div>
 </section>
-
-
-
-

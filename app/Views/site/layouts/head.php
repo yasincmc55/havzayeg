@@ -29,5 +29,6 @@
     <link rel="stylesheet" href="<?= base_url('assetssite/') ?>css/flaticon.css">
     <link rel="stylesheet" href="<?= base_url('assetssite/') ?>css/icomoon.css">
     <link rel="stylesheet" href="<?= base_url('assetssite/') ?>css/style.css">
+    <link rel="stylesheet" href="<?= base_url('assetssite/') ?>css/havza.css?d=<?= time() ?>">
 </head>
 <body>
