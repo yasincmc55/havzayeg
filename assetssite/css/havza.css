@@ -24,7 +24,7 @@
     rgba(209, 209, 209, 0) 31%,
     rgb(0 0 0 / 51%) 90%
   );
-  width: 100vw;
+  width: 100%;
   display: block;
   height: 100vh;
   position: absolute;
@@ -161,6 +161,7 @@
     align-items: center;
     height: 50px;
     margin-bottom: 15px;
+    font-size: 17px;
 }
 .hero-wrap-2 {
     background-position: center center ;
